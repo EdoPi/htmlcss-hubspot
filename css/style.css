@@ -41,8 +41,6 @@ header li{
   width: 20px
 }
 
-
-
 a{
   text-decoration: none;
   color: #324453;
@@ -57,7 +55,6 @@ h1{
 font-weight: 600;
 font-size: 50px;
 }
-
 .button1{
   color: #FD6357;
   border: 1px solid #FD6357;
@@ -143,4 +140,48 @@ main{
 .cube-content h2{
   margin:0 auto;
   padding: 20px;
+}
+
+.learnmore{
+  text-align: center;
+  width: 30%;
+  height: 300px;
+  padding-top: 75px;
+
+}
+
+.freehub{
+  padding-top: 75px;
+  width: 70%;
+  height: 300px;
+}
+
+.middle-cont{
+  margin-top: 50px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #ccc;
+
+}
+
+.learnmore div {
+  font-size: 20px;
+}
+
+.learnmore img{
+  width: 150px;
+  padding-bottom: 30px;
+}
+
+.freehub h3{
+  color: #2D3E4F;
+  font-size: 25px;
+}
+
+.freehub > p{
+  padding-top: 30px;
+  width: 70%;
+}
+
+.freehub-popolar{
+  padding-top: 30px;
 }
