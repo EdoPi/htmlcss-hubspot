@@ -1,0 +1,71 @@
+
+
+
+/* COMMON CLASS E UTILITY CLASS*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.font{
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header li{
+  display: inline-block;
+  padding-right: 20px;
+
+}
+.navbar-top li img{
+  vertical-align: middle;
+  width: 20px
+}
+
+a{
+  text-decoration: none;
+  color: #324453;
+}
+
+.navbar{
+  height: 80px;
+  line-height: 80px;
+}
+
+/* END COMMON CLASS E UTILY CLASS*/
+.navbar-top-cont{
+  border-bottom: 2px solid #999;
+  background-color: #F2F8FC;
+}
+
+.menu1{
+padding-left: 15px;
+}
+
+
+.menu2{
+  padding-right: 15px;
+}
+
+.navbar-bottom{
+  background-color:
+}
