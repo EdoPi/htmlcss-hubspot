@@ -71,9 +71,17 @@ font-size: 50px;
   background-color: #FD6357;
   padding: 10px 10px;
   border-radius: 5px;
-
 }
 
+h2{
+  font-size: 40px;
+  color: #2D3E4F;
+}
+
+.weight{
+  font-weight: 300;
+
+}
 
 /* END COMMON CLASS E UTILY CLASS*/
 .navbar-top-cont{
@@ -110,7 +118,7 @@ padding-left: 15px;
 
 .jumbotron > p:nth-child(2){
 padding-top:50px;
-font-weight: 300;
+
 }
 
 .jumbotron > p:nth-child(3){
@@ -119,6 +127,20 @@ font-weight: 300;
 
 .jumbotron > p:nth-child(4){
   font-size: 12px;
-  font-weight: 300;
   padding-top:50px;
+}
+
+main{
+  background-color: #F2F8FC;
+}
+.cube-content{
+  width: 800px;
+  margin: 0 auto;
+  padding-top:50px;
+  text-align: center;
+}
+
+.cube-content h2{
+  margin:0 auto;
+  padding: 20px;
 }
