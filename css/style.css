@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-.clearfix{
+.clearfix::after{
   content: "";
   display: table;
   clear: both;
@@ -23,7 +23,7 @@
 }
 
 .font{
-font-family: 'Roboto', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -49,6 +49,10 @@ a{
 .navbar{
   height: 80px;
   line-height: 80px;
+}
+
+ul{
+  list-style-type: none;
 }
 
 h1{
@@ -127,9 +131,20 @@ padding-top:50px;
   padding-top:50px;
 }
 
+
+
+
+
+/* inizio main */
+
+
 main{
   background-color: #F2F8FC;
 }
+
+
+/* inizio boc cubo*/
+
 .cube-content{
   width: 800px;
   margin: 0 auto;
@@ -141,6 +156,12 @@ main{
   margin:0 auto;
   padding: 20px;
 }
+
+
+
+
+/* inizio box FREE HUB*/
+
 
 .learnmore{
   text-align: center;
@@ -159,7 +180,8 @@ main{
 .middle-cont{
   margin-top: 50px;
   background-color: white;
-  box-shadow: 5px 5px 5px 5px #ccc;
+  box-shadow: 0 0 11px #ccc;
+  border-radius: 10px;
 
 }
 
@@ -179,9 +201,86 @@ main{
 
 .freehub > p{
   padding-top: 30px;
-  width: 70%;
+  width: 80%;
 }
 
 .freehub-popolar{
+  font-weight: bold;
+  width: 33%;
+
+}
+
+
+.freehub .row{
+  margin-top: 30px;
+
+}
+
+.freehub .fl:nth-child(2){
+  width: 50%;
+  padding-top: 10px;
+}
+
+.freehub li{
+  display: inline-block;
+  padding-right: 15px;
+}
+
+.freehub div:nth-child(4){
+  padding-top: 30px
+
+}
+
+.freehub li i{
+  color: #FD6357;
+  padding-right: 15px;
+}
+
+
+/* inizio triple boxes*/
+
+.hubs-cont {
+  margin-top: 50px;
+}
+
+
+
+.box-hub{
+  margin:0 auto;
+  text-align: center;
+  width: 33.333%;
+  background: red;
+  border:1px solid white;
+
+
+}
+
+.box-hub-content{
+  margin 0 auto;
+  padding:50px;
+  /*   background-color: white;  */
+}
+
+.box-hub-1{
+
+}
+.box-hub-2{
+
+}
+.box-hub-3{
+
+}
+
+.box-hub-content p:nth-child(3){
   padding-top: 30px;
+}
+
+.box-hub-content p:nth-child(4){
+  padding-top: 30px;
+}
+
+.box-hub-content ul{
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
