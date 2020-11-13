@@ -246,28 +246,30 @@ main{
 
 
 .box-hub{
-  margin:0 auto;
   text-align: center;
   width: 33.333%;
   background: red;
   border:1px solid white;
 
-
+  height: 700px;
 }
 
 .box-hub-content{
-  margin 0 auto;
-  padding:50px;
-  /*   background-color: white;  */
+  width: 100%;
+  height: 700px;
+  background-color: white;
 }
 
-.box-hub-1{
+.bhc1{
+  margin-right: 20px
 
 }
-.box-hub-2{
+.bhc2{
+  margin: 0 10px 0 10px;
 
 }
-.box-hub-3{
+.bhc3{
+  margin-left: 20px;
 
 }
 
