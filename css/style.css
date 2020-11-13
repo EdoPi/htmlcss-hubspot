@@ -8,6 +8,9 @@
   padding: 0;
 }
 
+.fa-check-circle{
+  color: #FD6357;
+}
 .clearfix::after{
   content: "";
   display: table;
@@ -172,7 +175,8 @@ main{
 }
 
 .freehub{
-  padding-top: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   width: 70%;
   height: 300px;
 }
@@ -241,6 +245,8 @@ main{
 
 .hubs-cont {
   margin-top: 50px;
+  color: #2D3E4F;
+  padding-bottom: 50px;
 }
 
 
@@ -248,41 +254,86 @@ main{
 .box-hub{
   text-align: center;
   width: 33.333%;
-  background: red;
-  border:1px solid white;
-
-  height: 700px;
+  height: 550px;
 }
 
 .box-hub-content{
   width: 100%;
-  height: 700px;
+  height: 550px;
   background-color: white;
+  padding: 15px;
+  box-shadow: 0 0 11px #ccc;
 }
 
-.bhc1{
-  margin-right: 20px
 
+.box-hub-1{
+  padding-right:60px;
 }
-.bhc2{
-  margin: 0 10px 0 10px;
 
+.box-hub-2{
+  padding-left: 30px;
+  padding-right:30px;
 }
-.bhc3{
-  margin-left: 20px;
 
+.box-hub-3{
+  padding-left: 60px;
 }
+
 
 .box-hub-content p:nth-child(3){
   padding-top: 30px;
 }
 
 .box-hub-content p:nth-child(4){
+  margin-top: 50px;
   padding-top: 30px;
+  font-weight: bold;
+  border-top: 1px solid;
+
 }
 
 .box-hub-content ul{
   text-align: left;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-bottom: 60px;
+}
+
+.box-hub-content ul span{
+    padding-left:  15px;
+}
+
+/* inizio infografica*/
+
+.infografica-bg{
+  background-image: linear-gradient(to right, #0F9EB0, #11B59F );
+}
+
+.infografica-container{
+  /*   height: 800px;  */
+
+}
+
+.infografica-text{
+  margin: 0 auto;
+  padding-top: 50px;
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.infografica-text h2{
+  font-size: 30px;
+  color: white;
+}
+
+.infografica-text p{
+  width: 1200px;
+  padding-top: 50px;
+  font-size: 15px;
+}
+
+.info-box{
+  width: 25%;
+  height: 200px;
+  border: 1px solid white;
 }
