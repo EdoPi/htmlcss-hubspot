@@ -339,8 +339,6 @@ main{
   text-align: center;
   width: 25%;
   height: 200px;
-  /*   border: 1px solid white;  */
-
 }
 
 h4{
@@ -375,4 +373,71 @@ h4{
 }
 .infografica div:nth-child(7){
   border-right: 1px solid white;
+}
+
+/* inizio last-container*/
+.row1{
+padding-top: 50px;
+}
+
+.row2{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.last-container-bg{
+   background-color: white;
+ }
+
+ .last-container{
+   position: relative;
+ }
+
+ .last-container > img{
+   position:absolute;
+   width: 25%;
+   bottom: 60px;
+   right: 0;
+ }
+
+.box-row-text{
+  width: 40%;
+  padding-right:200px;
+  padding-left: 100px;
+}
+
+.box-row-text p{
+  padding-top: 30px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.logos{
+  padding-top: 20px;
+  width: 60%;
+}
+
+.box-logos{
+  line-height: 100px;
+  width: 25%;
+  height: 100px;
+}
+
+.box-logos img{
+  width: 80%;
+}
+
+.last-text{
+  width: 40%;
+}
+.last-text h2{
+font-size: 30px;
+padding-bottom: 50px;
+}
+
+.last-text p:nth-child(2){
+  padding-bottom: 50px;
+}
+.last-text p:nth-child(4){
+  padding-top: 50px;
+  font-size: 12px;
 }
