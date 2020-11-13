@@ -333,7 +333,46 @@ main{
 }
 
 .info-box{
+  line-height: 50px;
+  padding-top: 30px;
+  color: white;
+  text-align: center;
   width: 25%;
   height: 200px;
-  border: 1px solid white;
+  /*   border: 1px solid white;  */
+
+}
+
+h4{
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.info-box p{
+  font-size: 12px;
+}
+.infografica div:first-child{
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.infografica div:nth-child(2){
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.infografica div:nth-child(3){
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+.infografica div:nth-child(4){
+  border-bottom: 1px solid white;
+}
+.infografica div:nth-child(5){
+  border-right: 1px solid white;
+}
+.infografica div:nth-child(6){
+  border-right: 1px solid white;
+}
+.infografica div:nth-child(7){
+  border-right: 1px solid white;
 }
