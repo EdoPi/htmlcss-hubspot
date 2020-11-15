@@ -1,6 +1,3 @@
-
-
-
 /* COMMON CLASS E UTILITY CLASS*/
 *{
   box-sizing: border-box;
@@ -88,13 +85,18 @@ h2{
 }
 
 /* END COMMON CLASS E UTILY CLASS*/
+header{
+  position: relative;
+  border-bottom: 3px solid #2D3E4F;
+}
+
 .navbar-top-cont{
   border-bottom: 2px solid #999;
   background-color: #F2F8FC;
 }
 
 .menu1{
-padding-left: 15px;
+  padding-left: 15px;
 }
 
 
@@ -106,15 +108,30 @@ padding-left: 15px;
   margin-top: 5px;
 }
 
+
+
 .jumbotron-cont{
   width: 100%;
-  height:900px;
-  background-color: red;
+  height:695px;
+  background-color: #FEF4EE;
   background-image: url("../img/jumbotron.png");
-  background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: bottom 0 right 0;
+
 }
+
+.jumbotron-cont::before{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  content: "";
+  background-color:#9FE8DD;
+  height: 80px;
+  width: 100%;
+  border-top: 3px solid #2D3E4F;
+}
+
+
 
 .jumbotron{
   padding-top: 150px;
@@ -134,17 +151,10 @@ padding-top:50px;
   padding-top:50px;
 }
 
-
-
-
-
 /* inizio main */
-
-
 main{
   background-color: #F2F8FC;
 }
-
 
 /* inizio boc cubo*/
 
@@ -160,11 +170,7 @@ main{
   padding: 20px;
 }
 
-
-
-
 /* inizio box FREE HUB*/
-
 
 .learnmore{
   text-align: center;
@@ -211,13 +217,11 @@ main{
 .freehub-popolar{
   font-weight: bold;
   width: 33%;
-
 }
 
 
 .freehub .row{
   margin-top: 30px;
-
 }
 
 .freehub .fl:nth-child(2){
@@ -232,14 +236,12 @@ main{
 
 .freehub div:nth-child(4){
   padding-top: 30px
-
 }
 
 .freehub li i{
   color: #FD6357;
   padding-right: 15px;
 }
-
 
 /* inizio triple boxes*/
 
@@ -265,7 +267,6 @@ main{
   box-shadow: 0 0 11px #ccc;
 }
 
-
 .box-hub-1{
   padding-right:60px;
 }
@@ -279,7 +280,6 @@ main{
   padding-left: 60px;
 }
 
-
 .box-hub-content p:nth-child(3){
   padding-top: 30px;
 }
@@ -289,7 +289,6 @@ main{
   padding-top: 30px;
   font-weight: bold;
   border-top: 1px solid;
-
 }
 
 .box-hub-content ul{
@@ -307,11 +306,6 @@ main{
 
 .infografica-bg{
   background-image: linear-gradient(to right, #0F9EB0, #11B59F );
-}
-
-.infografica-container{
-  /*   height: 800px;  */
-
 }
 
 .infografica-text{
@@ -349,6 +343,7 @@ h4{
 .info-box p{
   font-size: 12px;
 }
+
 .infografica div:first-child{
   border-bottom: 1px solid white;
   border-right: 1px solid white;
@@ -358,19 +353,24 @@ h4{
   border-bottom: 1px solid white;
   border-right: 1px solid white;
 }
+
 .infografica div:nth-child(3){
   border-bottom: 1px solid white;
   border-right: 1px solid white;
 }
+
 .infografica div:nth-child(4){
   border-bottom: 1px solid white;
 }
+
 .infografica div:nth-child(5){
   border-right: 1px solid white;
 }
+
 .infografica div:nth-child(6){
   border-right: 1px solid white;
 }
+
 .infografica div:nth-child(7){
   border-right: 1px solid white;
 }
@@ -384,20 +384,21 @@ padding-top: 50px;
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 .last-container-bg{
-   background-color: white;
- }
+  background-color: white;
+}
 
- .last-container{
-   position: relative;
- }
+.last-container{
+  position: relative;
+}
 
- .last-container > img{
-   position:absolute;
-   width: 25%;
-   bottom: 60px;
-   right: 0;
- }
+.last-container > img{
+  position:absolute;
+  width: 25%;
+  bottom: 60px;
+  right: 0;
+}
 
 .box-row-text{
   width: 40%;
@@ -429,6 +430,7 @@ padding-top: 50px;
 .last-text{
   width: 40%;
 }
+
 .last-text h2{
 font-size: 30px;
 padding-bottom: 50px;
@@ -437,6 +439,7 @@ padding-bottom: 50px;
 .last-text p:nth-child(2){
   padding-bottom: 50px;
 }
+
 .last-text p:nth-child(4){
   padding-top: 50px;
   font-size: 12px;
@@ -445,8 +448,8 @@ padding-bottom: 50px;
 /* inizio footer*/
 
 footer{
-background-color: #2C404F;
-padding-top: 50px;
+  background-color: #2C404F;
+  padding-top: 50px;
 }
 
 footer a{
@@ -477,13 +480,16 @@ h5{
   width: 51%;
   font-size: 10px;
 }
+
 .social-icon{
   padding-top: 20px;
 }
+
 .social-icon li{
   display: inline-block;
   padding-right: 15px;
 }
+
 .icons{
   font-size: 15px;
 }
@@ -500,10 +506,12 @@ h5{
   display: inline-block;
   padding-right: 15px;
 }
+
 .footer-bottom{
   padding-top: 50px;
   padding-bottom: 50px;
 }
+
 .copyright p{
   color: white;
 }
