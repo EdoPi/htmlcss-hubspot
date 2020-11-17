@@ -93,22 +93,16 @@ header{
 .navbar-top-cont{
   border-bottom: 2px solid #999;
   background-color: #F2F8FC;
+  min-width: 1200px;
 }
 
 .menu1{
   padding-left: 15px;
 }
 
-
-.menu2{
-  padding-right: 15px;
-}
-
 .navbar-bottom .menu1{
   margin-top: 5px;
 }
-
-
 
 .jumbotron-cont{
   width: 100%;
@@ -117,6 +111,7 @@ header{
   background-image: url("../img/jumbotron.png");
   background-repeat: no-repeat;
   background-position: bottom 0 right 0;
+  min-width: 1200px;
 
 }
 
@@ -129,12 +124,11 @@ header{
   height: 80px;
   width: 100%;
   border-top: 3px solid #2D3E4F;
+  min-width: 1200px;
 }
 
-
-
 .jumbotron{
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 .jumbotron > p:nth-child(2){
@@ -154,6 +148,7 @@ padding-top:50px;
 /* inizio main */
 main{
   background-color: #F2F8FC;
+  min-width: 1200px;
 }
 
 /* inizio boc cubo*/
@@ -251,8 +246,6 @@ main{
   padding-bottom: 50px;
 }
 
-
-
 .box-hub{
   text-align: center;
   width: 33.333%;
@@ -306,6 +299,8 @@ main{
 
 .infografica-bg{
   background-image: linear-gradient(to right, #0F9EB0, #11B59F );
+  padding-bottom: 50px;
+  min-width: 1200px;
 }
 
 .infografica-text{
@@ -344,41 +339,21 @@ h4{
   font-size: 12px;
 }
 
-.infografica div:first-child{
-  border-bottom: 1px solid white;
+.plus{
+  font-size: 0.7em;
+  vertical-align: middle;
+
+}
+.border-bottom{
+border-bottom: 1px solid white;
+}
+.border-right{
   border-right: 1px solid white;
 }
 
-.infografica div:nth-child(2){
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
-}
 
-.infografica div:nth-child(3){
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
-}
-
-.infografica div:nth-child(4){
-  border-bottom: 1px solid white;
-}
-
-.infografica div:nth-child(5){
-  border-right: 1px solid white;
-}
-
-.infografica div:nth-child(6){
-  border-right: 1px solid white;
-}
-
-.infografica div:nth-child(7){
-  border-right: 1px solid white;
-}
 
 /* inizio last-container*/
-.row1{
-padding-top: 50px;
-}
 
 .row2{
   padding-top: 100px;
@@ -387,6 +362,7 @@ padding-top: 50px;
 
 .last-container-bg{
   background-color: white;
+  padding-top: 50px;
 }
 
 .last-container{
